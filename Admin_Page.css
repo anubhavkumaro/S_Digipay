@@ -1,0 +1,19 @@
+﻿* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.first_main {
+    width:20%;
+    height:100vh;
+    background-color:red;
+  
+}
+.second_main {
+    width:80%;
+    height:100vh;
+    background-color:green;
+}
+.main {
+    display:flex;
+}

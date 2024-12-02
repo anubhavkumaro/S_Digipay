@@ -1,0 +1,75 @@
+﻿* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.main {
+    width:100%;
+    height:120vh;
+    background-image:url(Image/back1.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.cont {
+    width:35%;
+    background-color:rgba(6, 249, 111, 0.706);
+    box-shadow:2px 2px 10px 5px yellow;
+    text-align:center;
+    border-radius:20px;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+h1 {
+    padding-top:10px;
+}
+label {
+    display:block;
+    font-size:20px;
+    text-align:left;
+    padding-left:10px;
+    margin-top:5px;
+    margin-bottom:5px;
+    font-weight:bold;
+    color:black;
+}
+#TextBox1, #TextBox2, #TextBox3, #TextBox4, #TextBox5, #TextBox6,#TextBox7{
+    width:90%;
+    height:35px;
+    border:none;
+    border-bottom-style:solid;
+    border-bottom-width:2px;
+    border-bottom-color:red;
+    background-color:transparent;
+    font-size:18px;
+    outline:none;
+    
+}
+#Button1 {
+    padding:10px;
+    background-color:red;
+    font-size:20px;
+    width:100px;
+    border-radius:20px;
+    cursor:pointer;
+
+}
+    #Button1:hover {
+        background-color:green;
+        color:white;
+    }
+p {
+    padding-bottom:10px;
+    padding-top:10px;
+    font-size:18px;
+}
+
+
+@media (max-width:1024px) {
+    .main {
+        width:100%;
+        height:120vh;
+    }
+}
